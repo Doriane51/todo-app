@@ -8,7 +8,7 @@ import Ttaches from './pages/Ttaches/Ttaches';
 import Aujourdhui from './pages/Aujourd\'hui/Aujourdhui';
 import Attente from './pages/EnAttente/Attente';
 import Pomodoro from './pages/pomodoro/Pomodoro';
-import Basic from './pages/Basic/Basic'
+
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <Route path="/dashbord" element={<Dashbord />}/>
           <Route path="/enregistrement" element={<Enregistrement />}/>
           <Route path="/" element={<Connexion />}/>
-          <Route path="/basic" element={<Basic />}/>
+          
 
         </Routes>
      </BrowserRouter>
